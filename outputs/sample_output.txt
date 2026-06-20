@@ -1,0 +1,50 @@
+═══════════════════════════════════════════════════════════════════
+   LOGISTICS TURNAROUND — PREDICTION REPORT
+═══════════════════════════════════════════════════════════════════
+
+  Report Generated: 2026-06-20 18:30:00
+  Model: XGBoost Regressor
+  Total Vehicles: 50
+
+───────────────────────────────────────────────────────────────────
+  VEHICLE TURNAROUND PREDICTIONS
+───────────────────────────────────────────────────────────────────
+
+  Vehicle    Route              Arrival    Distance   Predicted    Status
+  ──────────────────────────────────────────────────────────────────────
+  VH-142     Chennai-BLR        08:15      350 km     105 min     ✅
+  VH-287     Chennai-HYD        07:30      520 km     158 min     ⚠️
+  VH-391     BLR-Mumbai         06:00      980 km     187 min     🚨
+  VH-156     Chennai-KOL        09:00     1200 km     225 min     🚨
+  VH-423     HYD-Delhi          05:45     1400 km     248 min     🚨
+  VH-512     Mumbai-Pune        10:30      150 km      78 min     ✅
+  VH-678     Delhi-Chennai      11:00     1800 km     265 min     🚨
+  VH-734     Kolkata-BLR        08:00      750 km     145 min     ⚠️
+  VH-891     Pune-HYD           07:45      560 km     132 min     ⚠️
+  VH-945     Mumbai-BLR         06:30      980 km     178 min     🚨
+
+───────────────────────────────────────────────────────────────────
+  FLEET SUMMARY
+───────────────────────────────────────────────────────────────────
+
+  Total Vehicles:        50
+  On-Time (≤120 min):    18 (36.0%)
+  Delayed (120-180 min): 20 (40.0%)
+  Critical (>180 min):   12 (24.0%)
+
+  Average Turnaround:    148.3 min
+  Median Turnaround:     142.0 min
+  Min Turnaround:        68 min
+  Max Turnaround:        298 min
+
+───────────────────────────────────────────────────────────────────
+  COST ANALYSIS
+───────────────────────────────────────────────────────────────────
+
+  Estimated Idle Cost:   ₹1,25,000/day
+  Potential Savings:     ₹38,000/day (with optimization)
+  Annual Savings:        ₹1.39 Cr/year
+
+═══════════════════════════════════════════════════════════════════
+  END OF REPORT
+═══════════════════════════════════════════════════════════════════
